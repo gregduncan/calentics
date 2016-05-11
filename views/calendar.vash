@@ -1,0 +1,16 @@
+@html.extend('layout',function(model){
+
+   @html.block('scripts', function(){
+        <script src="../../jspm_packages/system.js"></script>
+        <script src="../../config.js"></script>
+        <script>
+            System.import('../../js/calendar')
+        </script>
+	})
+
+
+	@html.block('body',function(model){
+		<div id="app">Loading...</div>
+		<h2>@model.id</h2>
+    });  
+})

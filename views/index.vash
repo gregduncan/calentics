@@ -1,6 +1,8 @@
 @html.extend('layout',function(model){
 
     @html.block('scripts', function(){
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
         <script>
             System.import('./js/home')
         </script>

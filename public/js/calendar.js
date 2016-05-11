@@ -4,17 +4,17 @@ import Bootstrap from 'bootstrap';
 import 'bootstrap/css/bootstrap.css!';
 import '../../css/styles.css!';
 
-class Calentics extends React.Component{
+class Calender extends React.Component{
 
 	render(){
 		return (
             <div>
-				<p>Welcome to Calentics online.</p>
-				<a href="./c/asdfsf" className="btn btn-default">Load</a>
+				<p>Welcome to your first plan</p>
+				<a href="../../" className="btn btn-default">Back</a>
             </div>
 
 			)
 	}
 }
 
-ReactDom.render(<Calentics />, document.getElementById('app'))
+ReactDom.render(<Calender />, document.getElementById('app'))
