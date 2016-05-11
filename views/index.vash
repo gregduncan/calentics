@@ -1,0 +1,12 @@
+@html.extend('layout',function(model){
+
+    @html.block('scripts', function(){
+        <script>
+            System.import('./js/home')
+        </script>
+	})
+
+	@html.block('body',function(model){
+		<div id="app">Loading...</div>
+    });    
+})
