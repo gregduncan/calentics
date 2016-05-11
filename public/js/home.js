@@ -7,7 +7,7 @@ import '../../css/styles.css!';
 class Calentics extends React.Component{
 
 	render(){
-		return <p>Welcome to Calentics</p>
+		return <p>Welcome to Calentics online.</p>
 	}
 }
 
