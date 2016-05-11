@@ -1,7 +1,6 @@
 {
   "name": "calentics",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,22 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
-  }
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-static-file": "^1.1.2",
+    "express": "^4.13.4",
+    "jspm": "^0.16.34",
+    "vash": "^0.11.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregduncan/calentics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gregduncan/calentics/issues"
+  },
+  "homepage": "https://github.com/gregduncan/calentics#readme",
+  "description": ""
 }
