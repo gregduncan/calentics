@@ -19,6 +19,7 @@ System.config({
     "bootstrap": "github:twbs/bootstrap@3.3.6",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.21",
+    "moment": "npm:moment@2.13.0",
     "react": "npm:react@15.0.2",
     "react-dom": "npm:react-dom@15.0.2",
     "github:jspm/nodelibs-assert@0.1.0": {

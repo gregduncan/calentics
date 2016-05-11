@@ -1,3 +1,118 @@
-body{
-	padding: 20px;
+/* Helpers
+   ----------------------------- */
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.heading{
+  
+}
+
+/* Header
+   ----------------------------- */
+.calendar-header {
+    font-weight: 100;
+    background: #eee
+}
+
+.calendar-header .row.calendar-header-toolbar {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+}
+
+.calendar-header .row.calendar-header-toolbar .col-lg-4 {
+    padding: 0;
+}
+
+.calendar-header .row.calendar-header-toolbar .sub-heading {
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 2px;
+}
+
+.calendar-header .brand {
+    font-size: 22px;
+}
+
+
+/* Table
+   ----------------------------- */
+.calendar-content {
+    padding: 0;
+    margin:0;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.calendar-table th {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+/* Days
+   ----------------------------- */
+
+.day {
+    background: #ccc;
+    border-radius: 4px;
+    width: 14%;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 100;
+    margin: 0;
+    vertical-align: top;
+}
+
+.day:hover {
+    background: #eee;
+}
+
+.day-container {
+    min-height: 160px;
+}
+
+.day-header {
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    height: 30px;
+}
+
+.day-header:hover {
+    background: #d1d1d1;
+}
+
+.day-header-section {
+}
+
+.day-header-title {
+    width: 50%;
+    color: #333;
+    padding: 2px 0 0 3px;
+}
+
+.day-header-action {
+    color: #333;
+    text-align: right;
+    width: 50%;
+    padding: 4px 5px 0 0;
 }
