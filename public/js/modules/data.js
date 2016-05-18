@@ -18,6 +18,9 @@ var bind = function(index){
 	// Calculate the first day of the week that the first date is in.
 	calenderStart = startDate.clone().subtract((startDay - 1), 'd'),
 
+	// Go back 7 days.
+	calenderBase = calenderStart.clone().subtract(7, 'd'),
+
 	// Calculate the last day of the week that the last date is in.
 	calenderFinish = finishDate.clone().add((7 - finishDay) , 'd'),
 
@@ -25,7 +28,7 @@ var bind = function(index){
 	w = 1,
 	weeks = [],
 	days = [],
-	mStart = calenderStart.clone().unix(),
+	mStart = calenderBase.clone().unix(),
 	mFinish = calenderFinish.clone().unix(),
 	increment = 86400;
 
@@ -33,7 +36,7 @@ var bind = function(index){
 	for(var i = 0; i < Number.MAX_VALUE; i++){
 
 		 // Create day object incremented.
-		var day = calenderStart.clone().add(i, 'd');
+		var day = calenderBase.clone().add(i, 'd');
 
 		// Bind details.
 		day.isMonthStart = day.date() === 1;
