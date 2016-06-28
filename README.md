@@ -11,4 +11,4 @@ This is a very simple project designed to explore React with ES6 class component
 + JSPM
 + Node 
 + Express
-+ Vash templat
++ Vash templates
